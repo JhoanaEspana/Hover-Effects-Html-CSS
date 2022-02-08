@@ -109,7 +109,7 @@ section::after{
   right: -50px;
   color: #03a9f4;
   transition: 0.5s;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .box .list .content .rank small{
@@ -121,3 +121,18 @@ section::after{
   right: 20px;
 }
 
+.box .list .content h4{
+  line-height: 1.2em;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.box .list .content p{
+  font-size: 0.75em;
+  transition: 0.5s;
+}
+
+.box .list:hover .content h4,
+.box .list:hover .content p{
+  color: #333;
+}
